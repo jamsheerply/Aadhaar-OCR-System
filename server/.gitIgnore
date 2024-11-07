@@ -1,0 +1,18 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore .env file
+.env
+
+# Ignore build output
+dist/
+
+# Ignore lock files
+package-lock.json
+
+# Ignore IDE/project files
+.vscode/
+
+
+# Gcp key
+noble-cubist-439303-c8-e65e8513ab51.json
