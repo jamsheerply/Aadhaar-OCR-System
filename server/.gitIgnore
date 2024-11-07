@@ -4,11 +4,7 @@ node_modules/
 # Ignore .env file
 .env
 
-# Ignore build output
-dist/
 
-# Ignore lock files
-package-lock.json
 
 # Ignore IDE/project files
 .vscode/
