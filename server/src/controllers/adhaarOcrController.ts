@@ -32,7 +32,7 @@ const adhaarOcrController = async (
     }
 
     const { frontImage, backImage } = req.body;
-
+    console.log(frontImage, backImage);
     // Preprocess images
     const processedFrontImage = await preprocessImage(frontImage);
     const processedBackImage = await preprocessImage(backImage);
